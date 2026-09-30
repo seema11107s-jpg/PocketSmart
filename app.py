@@ -25,6 +25,7 @@ try:
 except Exception as e:
     GEMINI_ON = False
     print(f"Gemini offline ma - Mock data use pannrom ma: {e}")
+    
 
 def get_gemini_recommendation(prompt):
     """Gemini 1.5 Flash Pro call ma - error vantha mock tharum ma"""
